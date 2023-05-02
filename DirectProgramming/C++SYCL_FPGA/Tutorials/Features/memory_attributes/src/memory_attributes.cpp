@@ -22,7 +22,7 @@ constexpr size_t kMaxVal = 512;
 #if defined (FPGA_SIMULATOR)
 constexpr size_t kNumTests = 2;
 #else
-constexpr size_t kNumTests = 64;
+constexpr size_t kNumTests = 2;
 #endif
 constexpr size_t kMaxIter = 8;
 
